@@ -1,0 +1,245 @@
+body {
+  font-family: "Raleway-Medium", "droid_sansregular", "Arial", sans-serif;
+  min-height: 100vh;
+  width: 80vw;
+  min-width: 800px;
+  max-width: 1720px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.logo img {
+  width: 10rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Sign up */
+#signUp {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  color: rgb(81, 126, 192);
+  padding: 1rem;
+}
+
+/* Navigation */
+.headerNav {
+  display: flex;
+  margin-left: auto;
+}
+
+.headerNav span {
+  display: inline-block;
+  min-width: 13rem;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+/* Navigation : pseudo-formating */
+.headerNav a:visited {
+  color: black;
+}
+
+.headerNav :hover {
+  border-top: 3px solid #0065fc;
+}
+
+.headerNav a:hover {
+  color: #0065fc;
+  border-top: 0;
+}
+
+/* ****************** */
+/*     Search Bar     */
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 3.5rem;
+  margin: 1rem 2em;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 1.8rem;
+  margin: 2rem;
+}
+h1 + p {
+  font-size: 1.3rem;
+  margin: 1rem 2rem;
+  margin-top: -1rem;
+}
+/* Icone */
+.searchBar i {
+  background-color: rgb(242, 242, 242);
+  height: inherit;
+  width: 3.5rem;
+  font-size: 1.5rem;
+
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Textbox */
+.searchBar input {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  padding-left: 1rem;
+  height: inherit;
+  border: 0;
+  border-bottom: 2px solid rgb(242, 242, 242);
+  border-top: 2px solid rgb(242, 242, 242);
+  box-sizing: border-box;
+}
+
+.searchBar input:focus {
+  outline: none;
+}
+
+/* Search button */
+.searchBar button {
+  background-color: #0065fc;
+  color: white;
+  font-size: 1.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: 6px solid rgb(0, 101, 252);
+  height: inherit;
+  width: 10rem;
+}
+
+.searchBar button:focus {
+  outline: 0;
+}
+
+.searchBar button:active {
+  border: 0;
+  outline: 0;
+  border-bottom: 3px solid #0082fc;
+  border-right: 3px solid #0082fc;
+}
+
+/* ****************** */
+/*       Filter       */
+/*                    */
+.mainFilter {
+  display: flex;
+  flex-direction: row;
+  justify-items: left;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* Filter list */
+.filterList {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: -1rem;
+}
+.filterH4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0rem 2rem 1rem 2rem;
+}
+
+/* Filter items */
+.filterList li {
+  display: inline-block;
+  padding: 0 20px;
+  height: 4rem;
+
+  background-color: white;
+  margin: 1rem 1rem;
+  padding: 1rem 1.4rem;
+
+  border-radius: 4rem;
+  border: 3px solid rgb(200, 200, 200);
+  box-sizing: border-box;
+}
+
+.filterList li strong {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+/* Filter item icon */
+.filterList i {
+  float: left;
+  color: rgb(0, 101, 252);
+  background-color: rgb(222, 235, 255);
+
+  font-size: 1.5rem;
+
+  margin: -1.2rem 0.8rem 0 -2.5rem;
+  height: inherit;
+  max-width: 4rem;
+  min-width: 4rem;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Filter item icon : pseudo-code */
+.filterList li:hover {
+  color: #0065fc;
+  background-color: rgb(242, 242, 242);
+}
+
+/* Info icon */
+#infoIcon {
+  margin: 0 0 1rem 1rem;
+  width: 80%;
+}
+
+#infoIcon i {
+  color: #0065fc;
+  background-color: white;
+
+  text-align: center;
+  font-size: 0.8rem;
+  width: 0.8rem;
+  float: left;
+
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid rgb(200, 200, 200);
+}
+
+#infoIcon p {
+  margin-top: 0.2rem;
+  font-size: 1rem;
+}
