@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/css/ordiStyles.css">
+    <link rel="stylesheet" media="all and (max-width: 480px)" href="../src/css/phoneStyles.css" />
+    <link rel="stylesheet" media="all and (min-width:481px)" href="../src/css/ordiStyles.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>RESERVIA</title>
 </head>
-<body>
+<body class="bodyFlex">
     <!--header-->
     <header class = "header">
         <div class="logo">
@@ -70,62 +71,63 @@
         <div class="mainAccomodation" id="goToAccommodation">
             <!-- Accommodation - List -->
             <section class="accommodationBox">
-                <h2> Hébergements à Marseille </h2>
+                <h2> Accomodations in Marseille </h2>
                 <ul class="accommodationList"> 
                     <li onclick="location.href = '#';" style="cursor:pointer">
-                        <span> <img src="../src/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image: Auberge de la cannebière"/> </span>
-                        <h3>Auberge la Cannebière </h3>
-                        <p> Nuit à partir de <em>25€</em> </p>
+                        <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image: Auberge de la cannebière"/> </span>
+                        <h3>Auberge de la Cannebière </h3>
+                        <p> Night starting at <em>25€</em> </p>
                         <div class="starRating" style="--rating: 4;">  </div>
                     </li>
 
                     <li onclick="location.href = '#';" style="cursor:pointer">
-                        <span> <img src="../src/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Image: Hôtel du port"/> </span>
+                        <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Image: Hôtel du port"/> </span>
                         <h3> Hôtel du port </h3>
-                        <p> Nuit à partir de <em>52€</em> </p>
+                        <p> Night starting at <em>52€</em> </p>
                         <div class="starRating" style="--rating: 5;">  </div>
                     </li>
 
                     <li onclick="location.href = '#';" style="cursor:pointer">
-                        <span> <img src="../src/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Image: Les mouettes Hötel"/> </span>
+                        <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Image: Les mouettes Hötel"/> </span>
                         <h3> Les mouettes Hötel </h3>
-                        <p> Nuit à partir de <em>76€</em> </p>
+                        <p> Night starting at <em>76€</em> </p>
                         <div class="starRating" style="--rating: 4;">  </div>
                     </li>
 
                     <li onclick="location.href = '#';" style="cursor:pointer">
-                        <span> <img src="../src/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Image: Hötel de la mer"/> </span>
+                        <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Image: Hötel de la mer"/> </span>
                         <h3> Hötel de la mer </h3>
-                        <p> Nuit à partir de <em>46€</em> </p>
+                        <p> Night starting at <em>46€</em> </p>
                         <div class="starRating" style="--rating: 3;" >  </div>
                     </li>
 
                     <li onclick="location.href = '#';" style="cursor:pointer"> 
-                        <span> <img src="../src/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Image: Auberge Le Panier"/> </span>
+                        <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Image: Auberge Le Panier"/> </span>
                         <h3>Auberge Le Panier </h3>
-                        <p> Nuit à partir de <em>23€</em> </p>
+                        <p> Night starting at <em>23€</em> </p>
                         <div class="starRating" style="--rating: 4;">  </div>
                     </li>
 
                     <li onclick="location.href = '#';" style="cursor:pointer">
-                        <span> <img src="../src/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image: Hôtel chez Amina"/> </span>
+                        <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image: Hôtel chez Amina"/> </span>
                         <h3> Hôtel chez Amina </h3>
-                        <p> Nuit à partir de <em>96€</em> </p>
+                        <p> Night starting at <em>96€</em> </p>
                         <div class="starRating" style="--rating: 5;">  </div>
                     </li>
                 </ul>
-                <p class="subCategorieText"> Afficher plus </p>
+                <p class="subCategorieText"> Show more </p>
             </section>
+                
             <!-- Accommodations - Most Popular -->
             <section class="mostPopularBox"> 
-                <h2> Les plus populaires <i class="fas fa-chart-line"></i>  </h2>
+                <h2> Most Popular <i class="fas fa-chart-line"></i>  </h2>
                 
                 <ul class="mostPopularList"> 
                     <li onclick="location.href = '#';" style="cursor:pointer">
                         <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Image: Auberge de la cannebière"/> </span>
                         <div class="mostPopularInfo">
-                            <h3>Hôtel Le soleil du matin </h3>
-                            <p> Nuit à partir de <em>128€</em> </p>
+                            <h3>Morning Sun Hotel </h3>
+                            <p> Night starting at <em>128€</em> </p>
                             <div class="starRating" style="--rating: 5;">  </div>                            
                         </div>
                     </li>
@@ -134,7 +136,7 @@
                         <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Image: Hôtel du port"/> </span>
                          <div class="mostPopularInfo">
                             <h3> Au coeur de l'eau Bed and Breakfast </h3>
-                            <p> Nuit à partir de <em>71€</em> </p>
+                            <p> Night starting at <em>71€</em> </p>
                             <div class="starRating" style="--rating: 4;">  </div>    
                         </div>
                         </li>
@@ -143,7 +145,7 @@
                         <span> <img src="https://hugolainen.github.io/Reservia/src/Images/accommodations/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Image: Tout bleu et Blanc Hotel"/> </span>
                         <div class="mostPopularInfo">
                             <h3> Tout bleu et Blanc Hotel</h3>
-                            <p> Nuit à partir de <em>68€</em> </p>
+                            <p> Night starting at <em>68€</em> </p>
                             <div class="starRating" style="--rating: 4;">  </div>                        
                         </div>
                     </li>
@@ -157,32 +159,32 @@
 
             <ul class="activitiesList">
                 <li onclick="location.href = '#';" style="cursor:pointer">
-                    <span><img src="https://hugolainen.github.io/Reservia/src/Images/activities/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image: Old Port"/> </span>
+                    <span><img src="../src/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image: Old Port"/> </span>
                     <h3>Old Port</h3>
                 </li>
 
                 <li onclick="location.href = '#';" style="cursor:pointer">
-                    <span> <img src="https://hugolainen.github.io/Reservia/src/Images/activities/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image: Pomègues Fort"/> </span>
+                    <span> <img src="../src/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image: Pomègues Fort"/> </span>
                     <h3>Pomègues Fort</h3>
                 </li>
 
                 <li onclick="location.href = '#';" style="cursor:pointer">
-                    <span> <img src="https://hugolainen.github.io/Reservia/src/Images/activities/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Image: Frioul Island"/> </span>
+                    <span> <img src="../src/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Image: Frioul Island"/> </span>
                     <h3>Frioul Island</h3>
                 </li>
 
                 <li onclick="location.href = '#';" style="cursor:pointer">
-                    <span>  <img src="https://hugolainen.github.io/Reservia/src/Images/activities/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image: Calanques National Park"/>  </span>
+                    <span>  <img src="../src/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image: Calanques National Park"/>  </span>
                     <h3>Calanques National Park</h3>
                 </li>
 
                 <li onclick="location.href = '#';" style="cursor:pointer">
-                    <span> <img src="https://hugolainen.github.io/Reservia/src/Images/activities/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Image: Notre-Dame-de-la-Garde"/> </span>
+                    <span> <img src="../src/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Image: Notre-Dame-de-la-Garde"/> </span>
                     <h3>Notre-Dame-de-la-Garde</h3>
                 </li>
 
                 <li onclick="location.href = '#';" style="cursor:pointer">
-                    <span> <img src="https://hugolainen.github.io/Reservia/src/Images/activities/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Image: Longchamp Park"/> </span>
+                    <span> <img src="../src/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Image: Longchamp Park"/> </span>
                     <h3>Longchamp Park</h3>
                 </li>
             </ul>
@@ -190,22 +192,22 @@
         <!-- Footer -->
         <footer class="mainfooter">
             <ul> 
-                <li> <em>About</em> </li>
-                <li> <a href="#"> Site Map </a></li>
-                <li> <a href="#"> General Terms and Conditions </a></li>
-                <li> <a href="#"> Data and Privacy </a></li>
+                <li> <em>A propos</em> </li>
+                <li> <a href="#"> Fonctionnement du site </a></li>
+                <li> <a href="#"> Conditions générales de vente </a></li>
+                <li> <a href="#"> Données et confidentialité </a></li>
             </ul>
 
             <ul> 
-                <li> <em>Our Accommodations</em> </li>
-                <li> <a href="#"> Quality Assessment </a> </li>
-                <li> <a href="#"> You have a hotel? </a> </li>
+                <li> <em>Nos hévergements</em> </li>
+                <li> <a href="#"> Charte qualité </a> </li>
+                <li> <a href="#"> soumettre votre hôtel </a> </li>
             </ul>
 
             <ul> 
                 <li> <em>Assistance</em> </li>
-                <li> <a href="#"> Help Desk </a> </li>
-                <li> <a href="#"> Contact Us </a> </li>
+                <li> <a href="#"> Centre d'aide </a> </li>
+                <li> <a href="#"> Nous contacter </a> </li>
             </ul>
         </footer>   
 
