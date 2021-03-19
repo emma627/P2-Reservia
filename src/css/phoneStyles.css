@@ -72,24 +72,24 @@ em{
 /* ****************** */
 /* Menu bar with logo */
 /*                    */
-.mainHeader {
+.header {
     display: flex;
     justify-content: flex-start;
 	align-items: center;
     flex-wrap: wrap;
 }
 
-.mainHeader div{
+.header div{
     width:  50%;
     height: 10rem;
 }
 
 /* Re-order */
-.mainHeader :nth-child(2){
+.header :nth-child(2){
     width: 100%;
     order: 3;
 }
-.mainHeader :nth-child(3){
+.header :nth-child(3){
     order: 2;
 }
 
@@ -120,7 +120,7 @@ em{
     text-align: center;
 }
 
-.mainNavigation span{
+.headerNav span{
     display: inline-block;
     font-size: 3rem;
     min-width: 50%;
@@ -128,15 +128,15 @@ em{
 }
 
 /* Navigation : pseudo-formating */
-.mainNavigation a:visited{
+.headerNav a:visited{
     color: black;
 }
 
-.mainNavigation :hover{
+.headerNav :hover{
     border-bottom: 8px solid #0065FC;
 }
 
-.mainNavigation a:hover{
+.headerNav a:hover{
     color: #0065FC;
     border-bottom: 0;
 }
