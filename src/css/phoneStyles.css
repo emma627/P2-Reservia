@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'Raleway-Medium';
-    src: url('/src/Font/Raleway-Medium.ttf');
+    src: url('src/Font/Raleway-Medium.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -113,7 +113,7 @@ em{
 }
 
 /* Navigation */
-.mainNavigation {
+.headerNav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
