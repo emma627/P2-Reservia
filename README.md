@@ -5,7 +5,7 @@ OpenClassRooms - Parcours Développeur Frontend
 
 P2 : Transformer une maquette en site web
 
-
+---------------------------------------------------------------
 
 OpenClassRooms - Frontend developer path
 
