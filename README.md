@@ -11,4 +11,4 @@ OpenClassRooms - Frontend developer path
 
 Project 2: Turn Mock-ups Into a Web Page
 
-Link to the website :  https://emma627.github.io/P2-Reservia/
+Link to the website :  https://emma627.github.io/projet2-Reservia/
